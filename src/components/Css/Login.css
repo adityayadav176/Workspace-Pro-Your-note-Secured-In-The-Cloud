@@ -1,25 +1,13 @@
-body {
-   /* background-color: rgba(58, 1, 108, 0.836); */
-   height: 100vh;
-}
-
-.Login-Container {
-    display: flex;
-    width: 80vw;
-    background-color: rgb(54, 27, 78);
-    margin: 0 auto;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 1rem;
+body{
+    height: 100vh;
 }
 
 .Login-page {
-  background-color: rgba(58, 1, 108, 0.836);
-   height: 100vh;
-   margin-bottom: 2rem;
-   padding-top: 2rem;
+    background-color: rgba(58, 1, 108, 0.836);
+    height: 94.5vh;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
 }
-
 
 .Login-left img {
     height: 450px;
@@ -39,7 +27,7 @@ body {
     color: aliceblue;
 }
 
-.login{
+.login {
     color: rgb(0, 0, 255);
     text-decoration: none;
 }
@@ -51,7 +39,7 @@ body {
     background: rgb(218, 164, 234);
 }
 
-.LogInBtn{
+.LogInBtn {
     padding: 10px;
     border-radius: 6px;
     border: none;
@@ -60,12 +48,13 @@ body {
     color: aliceblue;
 }
 
-.toggle{
+.toggle {
     background-color: red;
 }
+
 .Login-right form {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
 }

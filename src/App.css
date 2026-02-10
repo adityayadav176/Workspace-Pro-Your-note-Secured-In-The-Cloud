@@ -4,7 +4,17 @@
 }
 
 body {
-    height: 200vh;
     font-family: 'Times New Roman', Times, serif;
     background-color: #ebebeb;
+}
+
+
+.Login-Signup-Container {
+    display: flex;
+    width: 80vw;
+    background-color: rgb(54, 27, 78);
+    margin: 2rem auto;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1rem;
 }

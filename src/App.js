@@ -10,6 +10,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+
 // import NoteState from '../context/notes/NoteState';
 
 
@@ -19,11 +20,13 @@ function App() {
       {/* <NoteState> */}
       <Router>
         <Routes>
-           <Route path="/Dashboard" element={<Home />} />
+          <Route path="/Dashboard" element={<Home />} />
           <Route path="/" element={<Login />} />
+          <Route path="/task" element={<Notes />} />
+        </Routes>
+        <Routes>
           <Route path="/Signup" element={<Signup />} />
           <Route path="/notes" element={<Task/>} />
-          <Route path="/task" element={<Notes />} />
         </Routes>
       </Router>
       {/* </NoteState> */}

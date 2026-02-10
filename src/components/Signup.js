@@ -9,7 +9,7 @@ import "./Css/Signup.css";
 function Signup() {
   return (
     <div className="signup-page">
-    <div className="Login-Container">
+    <div className="Login-Signup-Container">
       <div className="Signup-left">
         <img src={img} alt="" />
       </div>

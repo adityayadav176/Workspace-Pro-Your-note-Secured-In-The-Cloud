@@ -25,18 +25,21 @@ function Login() {
 
       const json = await response.json();
       console.log(json);
+     
 
       if (response.ok) {
         // optional: save token
-        localStorage.setItem("token", json.authtoken);
+      localStorage.setItem("token", json.authtoken);
 
         alert("Login Successful");
 
         // redirect to Home
         navigate("/Dashboard");
-      } else {
+      }
+    else {
         alert("Invalid Credentials");
       }
+       
     } catch (error) {
       console.error("Error:", error);
       alert("Server not running or CORS issue");
@@ -49,7 +52,7 @@ function Login() {
 
   return (
     <div className="Login-page">
-      <div className="Login-Container">
+        <div className="Login-Signup-Container">
         <div className="Login-left">
           <img src={img} alt="login" />
         </div>

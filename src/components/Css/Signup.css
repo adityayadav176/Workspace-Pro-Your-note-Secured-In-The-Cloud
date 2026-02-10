@@ -2,15 +2,6 @@ body{
     height: calc(100vh-12vh);
 }  
 
-.Login-Container {
-    display: flex;
-    width: 80vw;
-    background-color: rgb(54, 27, 78);
-    margin: 0 auto;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 1rem;
-}
 
 .signup-page {
   background-color: rgba(58, 1, 108, 0.836);
