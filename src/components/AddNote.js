@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Css/Addnote.css"
 
-function AddNote() {
+function AddNote(props) {
     return (
         <>
             <div className="ModalOverlay">
@@ -28,7 +28,7 @@ function AddNote() {
                     </div>
                     <div className="addNoteBtnsSection">
                           <button className='AddnoteBtn'>Create</button>
-                    <button className='CancelnoteBtn'>Cancel</button>
+                    <button className='CancelnoteBtn' onClick={props.closeForm}>Cancel</button>
                     </div>
                   
                 </div>

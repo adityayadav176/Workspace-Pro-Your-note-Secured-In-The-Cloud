@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useState } from 'react'
 import NavBar from '../components/NavBar';
 import NoteItem from '../components/noteItem';
 import "./Css/notes.css";
@@ -10,6 +10,7 @@ import AddNote from './AddNote';
 function Notes() {
  const context = useContext(noteContext);
   const {notes, setNotes} = context; 
+  const [showForm, setShowForm] = useState(false);
 
   return (
     <>
@@ -21,10 +22,11 @@ function Notes() {
         <p>Keep track of important information</p>
       </div>
       <div className="btn">
-        <button className='add-note'>
+        <button onClick={() => setShowForm(true)} className='add-note'>
           <i className=
 "fa-solid fa-plus">
-          </i>New Note</button>
+          </i>New Note  </button>
+          
       </div>
       </div>
 
@@ -33,7 +35,7 @@ function Notes() {
         return  <NoteItem key={note._id} note={note}/>
       })}
       </div>
-      <AddNote/>
+      {showForm && <AddNote closeForm={() => setShowForm(false)} />}
        <Footer/>
     </>
   )
