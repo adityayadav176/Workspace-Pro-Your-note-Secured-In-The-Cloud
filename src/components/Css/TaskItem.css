@@ -6,6 +6,10 @@
     margin: 0 2rem 2rem 2rem;
 }
 
+.Task-container:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
 .task-data {
     display: flex;
     justify-content: space-between;
@@ -26,18 +30,26 @@
 }
 
 .task-tick-btn {
-    background-color: rgb(194, 200, 255);
+     background-color: rgb(209, 213, 255);
     padding: 0.7rem;
     color: rgb(27, 27, 239);
     border-radius: 1rem;
     margin-right: 10px;
 }
 
+.task-tick-btn:hover{
+     background-color: rgb(122, 135, 250);
+}
+
 .task-trash-btn {
-    background-color: rgb(247, 181, 181);
-    color: rgb(138, 41, 41);
+    color: rgb(227, 48, 48);
+    background-color: rgb(255, 213, 213);
     padding: 0.7rem;
     border-radius: 1rem;
+}
+
+.task-trash-btn:hover{
+     background-color: rgb(247, 181, 181);
 }
 
 .Task-description {
