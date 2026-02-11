@@ -77,11 +77,11 @@ function Footer() {
 
       <div className=
 "social-icons">
-        <a href="/">🐦</a>
-        <a href="/">🐙</a>
-        <a href="/">📷</a>
-        <a href="/">💼</a>
-        <a href="/">📘</a>
+        <a href="/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="/"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="/"><i class="fa-brands fa-github"></i></a>
+        <a href="/"><i class="fa-brands fa-youtube"></i></a>
       </div>
     </div>
   </footer>
