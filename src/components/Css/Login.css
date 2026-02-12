@@ -1,12 +1,14 @@
-body{
+body {
     height: 100vh;
 }
 
 .Login-page {
-    background-color: rgba(58, 1, 108, 0.836);
     height: 94.5vh;
     margin-bottom: 2rem;
     padding-top: 2rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .Login-left img {

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import img from "../assest/image.png";
 import "./Css/Login.css";
+import bg from "../assest/Fimage3.jpg"
 
 function Login() {
   const [credentials, setCredentials] = useState({
@@ -51,7 +52,7 @@ function Login() {
   };
 
   return (
-    <div className="Login-page">
+    <div className="Login-page" style={{ backgroundImage: `url(${bg})` }}>
         <div className="Login-Signup-Container">
         <div className="Login-left">
           <img src={img} alt="login" />

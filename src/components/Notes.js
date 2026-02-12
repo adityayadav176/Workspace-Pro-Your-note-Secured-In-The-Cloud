@@ -9,7 +9,7 @@ import AddNote from './AddNote';
 
 function Notes() {
  const context = useContext(noteContext);
-  const {notes, setNotes} = context; 
+  const {notes} = context; 
   const [showForm, setShowForm] = useState(false);
 
   return (
@@ -29,13 +29,13 @@ function Notes() {
           
       </div>
       </div>
-
+     {showForm && <AddNote closeForm={() => setShowForm(false)} />}
       <div className="notes-container">
         {notes.map((note)=>{
         return  <NoteItem key={note._id} note={note}/>
       })}
       </div>
-      {showForm && <AddNote closeForm={() => setShowForm(false)} />}
+     
        <Footer/>
     </>
   )

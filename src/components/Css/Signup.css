@@ -1,13 +1,17 @@
-body{
+body {
     height: calc(100vh-12vh);
-}  
+}
 
 
 .signup-page {
-  background-color: rgba(58, 1, 108, 0.836);
-   height: 100vh;
-   margin-bottom: 2rem;
-   padding-top: 2rem;
+    background-color: rgba(58, 1, 108, 0.836);
+    height: 94.5vh;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 
 
@@ -25,11 +29,10 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 10px;
     color: aliceblue;
 }
 
-.login{
+.login {
     color: rgb(0, 0, 255);
     text-decoration: none;
 }
@@ -46,7 +49,6 @@ body{
     border-radius: 6px;
     border: none;
     cursor: pointer;
-     background: rgb(91, 3, 117);
-     color: aliceblue;
+    background: rgb(91, 3, 117);
+    color: aliceblue;
 }
-

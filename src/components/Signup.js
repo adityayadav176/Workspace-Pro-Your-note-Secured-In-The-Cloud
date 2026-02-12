@@ -2,13 +2,14 @@ import React from 'react'
 import { NavLink } from "react-router-dom";
 import img from "../assest/image.png"
 import "./Css/Signup.css";
+import bg from "../assest/Fimage3.jpg"
 
 
 
 
 function Signup() {
   return (
-    <div className="signup-page">
+    <div className="signup-page" style={{ backgroundImage: `url(${bg})` }}>
     <div className="Login-Signup-Container">
       <div className="Signup-left">
         <img src={img} alt="" />
